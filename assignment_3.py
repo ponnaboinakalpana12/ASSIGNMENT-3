@@ -168,7 +168,7 @@ import sys                                          #for path to external script
 sys.path.insert(0, '/storage/emulated/0/tlc/school/ncert/linman/codes/CoordGeo') 
  
 #lambda 
-a = np.array([5/2,0])
+a = np.array([2.5,0])
 m = np.array([0,1])
 r = 5
 s = np.sqrt(r**2 - (LA.norm(q))**2)/(LA.norm(m))**2
@@ -181,12 +181,12 @@ r=5
  
 #Input parameters
 O = np.array(([0,0]))
-A = np.array(([2.5,4.94]))
-B= np.array(([2.5,-4.94]))
+A = np.array(([2.5,4.33]))
+B= np.array(([2.5,-4.33]))
 P = np.array(([10,0]))
 f = -25
-m = np.array(([1,-0.6]))
- 
+m = np.array(([1,-0.58]))
+n = np.array(([1, 0.58])) 
 k1 = 10
 k2 = -10
  
