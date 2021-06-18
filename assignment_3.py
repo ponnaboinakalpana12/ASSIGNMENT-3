@@ -169,9 +169,10 @@ sys.path.insert(0, '/storage/emulated/0/tlc/school/ncert/linman/codes/CoordGeo')
  
 #lambda 
 a = np.array([2.5,0])
-m = np.array([0,1])
+e1 = np.array([1,0])
+e2 = np.array([0,1])
 r = 5
-s = np.sqrt(r**2 - (LA.norm(q))**2)/(LA.norm(m))**2
+s = np.sqrt(r**2 - (LA.norm(e1))**2)/(LA.norm(e2))**2
 print(s)
  
 #centre and radius of circle
